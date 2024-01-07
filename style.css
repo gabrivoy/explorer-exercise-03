@@ -16,7 +16,7 @@ body {
     background: #EFEFEF;
 }
 
-body::before{
+body::before {
     content: '';
     width: 100%;
     height: 436px;
@@ -29,13 +29,13 @@ body::before{
     background: #535971;
 }
 
-header{
+header {
     width: 750px;
     margin: auto;
     margin-top: 140px;
 }
 
-header p{
+header p {
     width: 417px;
     margin-top: 18px;
 }
@@ -47,12 +47,34 @@ form {
     margin-top: 58px;
     border: 0;
     border-radius: 20px 20px 0 0;
+    padding: 64px;
 }
 
-form h1{
+form fieldset {
+    border: 0;
+    padding-left: 0;
+    border-bottom: 1px solid #E6E6F0;
+    padding-bottom: 16px;
+}
+
+form fieldset legend {
     color: #535971;
+
+    font-family: Staatliches;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 34px;
+
+    padding-left: 0;
 }
 
-form p{
+form h1 {
+    color: #535971;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+form p {
     color: #4E4958;
 }
