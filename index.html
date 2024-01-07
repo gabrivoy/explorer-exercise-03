@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <header>
+        <h1>Mentoria</h1>
+        <p> Preencha o formulário abaixo para agendar a sua mentoria</p>
+    </header>
+    <form>
+        <fieldset>
+            <h1>Informações pessoais</h1>
+
+            <p>Nome</p>
+            <input type="text" placeholder="Nome" required>
+
+            <p>Sobrenome</p>
+            <input type="text" placeholder="Sobrenome" required>
+
+            <p>E-mail <span>(digite um e-mail válido)</span></p>
+            <input type="email" placeholder="E-mail" required>
+
+            <p>Senha <span>(mínimo de 6 caracteres)</span></p>
+            <input type="password" placeholder="Senha" required>
+        </fieldset>
+        <fieldset>
+            <h1>Informações do mentor</h1>
+
+            <p>Nome do seu mentor <span>(só o primeiro nome)</span></p>
+            <input type="text" placeholder="Nome" required>
+        </fieldset>
+        <fieldset>
+            <h1>Seus horários disponíveis</h1>
+
+            <h1>Primeira mentoria</h1>
+
+            <p>Data <span>(DD/MM/AAAA)</span></p>
+            <input type="date" placeholder="Data" required>
+
+            <p>Das</p>
+            <input type="time" placeholder="Das" required>
+
+            <p>Até</p>
+            <input type="time" placeholder="Até" required>
+
+            <h1>Segunda mentoria</h1>
+
+            <p>Data <span>(DD/MM/AAAA)</span></p>
+            <input type="date" placeholder="Data" required>
+
+            <p>Das</p>
+            <input type="time" placeholder="Das" required>
+
+            <p>Até</p>
+            <input type="time" placeholder="Até" required>
+
+        </fieldset>
+    </form>
+    <footer>
+
+        <button type="submit">Salvar</button>
+
+    </footer>
+</body>
+</html>
